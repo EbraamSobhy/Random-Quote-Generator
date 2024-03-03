@@ -1,0 +1,55 @@
+body{
+    background-color:darkslategrey;    
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    margin-top: 250px;
+    background-color: aquamarine;
+    width: 800px;
+    border-radius: 15px;
+}
+
+.quote{
+    padding: 60px 110px;
+    color:firebrick;
+    font-size: 32px;
+    text-align: center;
+}
+
+.line{
+    width: 680px;
+    height: 1.5px;
+    background-color: darkslategray;
+}
+
+.bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0px;
+}
+
+.author{
+    color: black;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.icons{
+    display: flex;
+    gap: 30px;
+}
+
+.icons img{
+    cursor:pointer;
+    height: 30px;
+}
+
+.span{
+    padding: 10px;
+}
